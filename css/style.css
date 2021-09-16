@@ -2,34 +2,33 @@
     box-sizing: border-box;
 }
 
-
-
-
-
-
+body {
+    margin: 32px 0 0;
+    font-family: 'Roboto', sans-serif;
+}
 
 .project-manage__title {
-    font-family: 'Roboto', sans-serif;
     text-align: center;
     margin: 32px 0 64px;
-
 }
 
 .project-manage__title-h1 {
     font-weight: 700;
+    margin-bottom: 16px;
 }
 
 .project-manage__title-h2 {
     font-weight: 400;
+    color: grey;
+    margin: 16px 0;
 }
 
 .project-manage__title-p {
     font-weight: 300;
     width: 800px;
-    word-wrap: break-word;
     margin-left: auto;
     margin-right: auto;
-
+    color: grey;
 }
 
 .project-manage__item {
@@ -44,9 +43,9 @@
 }
 
 .project-manage__item-button button {
-    border: 1px solid black;
+    border: 0.5px solid rgb(214, 214, 214);
     border-radius: 6px;
-    background-color: green;
+    background-color: #1ce8b5;
     color: white;
     padding: 16px 32px;
     text-align: center;
@@ -57,7 +56,6 @@
 .project-manage__item-button button:hover {
     background-color: #4CAF50;
     color: white;
-
 }
 
 .project-manage__item-button button:active {
@@ -68,7 +66,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .project-manage__item-card-wrapper {
@@ -83,4 +80,56 @@
 
 .project-manage__item-text {
     text-align: center;
+}
+
+.information-line {
+    display: flex;
+    margin: 128px 0 0;
+    flex-wrap: wrap;
+}
+
+.information-line__item-card1 {
+    width: 25%;
+    display: flex;
+    background-color: lightskyblue;
+    height: 160px;
+    align-items: center;
+    padding: 16px;
+    justify-content: center;
+}
+
+.information-line__item-card2 {
+    width: 25%;
+    display: flex;
+    background-color: #81b0fe;
+    height: 160px;
+    align-items: center;
+    padding: 16px;
+    justify-content: center;
+}
+
+.information-line__item-card3 {
+    width: 25%;
+    display: flex;
+    background-color: #b287fd;
+    height: 160px;
+    align-items: center;
+    padding: 16px;
+    justify-content: center;
+}
+
+.information-line__item-card4 {
+    width: 25%;
+    display: flex;
+    background-color: #e880fb;
+    height: 160px;
+    align-items: center;
+    padding: 16px;
+    justify-content: center;
+}
+
+.information-line__item-info {
+    margin-left: 32px;
+    font-weight: 400;
+    color: white;
 }
